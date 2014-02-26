@@ -1,0 +1,3 @@
+[submodule "LS_COLORS"]
+	path = LS_COLORS
+	url = https://github.com/pipboy20k/LS_COLORS

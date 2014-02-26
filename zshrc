@@ -12,6 +12,8 @@ bindkey -e
 
 export EDITOR=vim 
 
+
+source ~/.zsh/dircolors.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/prompt.zsh
 source ~/.zsh/aliases.zsh
