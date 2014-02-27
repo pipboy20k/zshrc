@@ -1,4 +1,5 @@
 #CUSTOM
+#full of deprecated stuff, gotta rework
 #PROMPT
 
 
