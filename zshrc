@@ -8,7 +8,8 @@ bindkey -e
 
 export EDITOR=vim 
 
-export GEMDIR=/var/lib/gems/1.9.1/gems
+#export GEMDIR=/var/lib/gems/1.9.1/gems
+export PATH=$PATH:~/bin
 
 source ~/.zsh/vi_mode.zsh
 source ~/.zsh/dircolors.zsh
