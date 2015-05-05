@@ -24,3 +24,4 @@ source ~/.zsh/aliases.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/functions.zsh
 source ~/.zsh/bindings.zsh
+# i like comments
