@@ -1,5 +1,6 @@
-alias l="ls"
+alias l="ls -lh"
 alias ll="ls -lh"
 alias la="ls -lah"
 alias ls="ls --color=auto"
 alias ..="cd .."
+alias v="nvim"

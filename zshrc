@@ -10,18 +10,15 @@ export EDITOR=vim
 
 
 
-export GEMDIR=~/.gem/ruby/2.2.0/gems
 export PATH=$PATH:~/bin
-export PATH=$PATH:~/apps/Android/Sdk/platform-tools/
-export PATH=$PATH:~/.gem/ruby/2.2.0/gems/compass-1.0.3/bin/
-export JAVA_HOME=/usr/lib/jvm/default/
 
-source ~/.zsh/vi_mode.zsh
-source ~/.zsh/dircolors.zsh
-source ~/.zsh/history.zsh
-source ~/.zsh/prompt.zsh
-source ~/.zsh/aliases.zsh
-source ~/.zsh/completion.zsh
-source ~/.zsh/functions.zsh
-source ~/.zsh/bindings.zsh
+ZSH_CONFIG_DIR="$HOME/.config/zsh"
+source "$ZSH_CONFIG_DIR/vi_mode.zsh"
+source "$ZSH_CONFIG_DIR/dircolors.zsh"
+source "$ZSH_CONFIG_DIR/history.zsh"
+source "$ZSH_CONFIG_DIR/prompt.zsh"
+source "$ZSH_CONFIG_DIR/aliases.zsh"
+source "$ZSH_CONFIG_DIR/completion.zsh"
+source "$ZSH_CONFIG_DIR/functions.zsh"
+source "$ZSH_CONFIG_DIR/bindings.zsh"
 # i like comments
